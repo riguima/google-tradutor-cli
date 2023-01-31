@@ -6,10 +6,14 @@ Google Translator that works in terminal
 
 By default translates from English to Portuguese, example:
 
-    > gtcli "hello world"
-    olá mundo
+```
+> python gtcli.py "Hello World"
+Olá Mundo
+```
 
-Can pass the argument "-d" to specify the output language:
+Can pass `-d` to specify the output language:
 
-    > gtcli "teste" -d en
-    test
+```
+> python gtcli.py "Teste" -d en
+Test
+```
