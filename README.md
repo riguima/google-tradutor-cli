@@ -4,6 +4,8 @@ Google Translator that works in terminal
 
 ## How to use
 
+Install all requirements with `pip install -r requirements.txt`
+
 By default translates from English to Portuguese, example:
 
 ```
