@@ -1,4 +1,3 @@
-#!/home/richard/projects/google_translator_cli/venv/bin/python
 from argparse import ArgumentParser
 from googletrans import Translator
 
