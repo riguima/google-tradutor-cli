@@ -1,19 +1,19 @@
-# google-translator-cli
+# google-tradutor-cli
 
-Google Translator that works in terminal
+Google Tradutor de terminal
 
-## How to use
+## Como Usar
 
-Install all requirements with `pip install -r requirements.txt`
+Instale todos os pacotes necessários com `pip install -r requirements.txt`
 
-By default translates from English to Portuguese, example:
+Por padrão traduz do Inglês para o Português (Brasil), exemplo:
 
 ```
 > python gtcli.py "Hello World"
 Olá Mundo
 ```
 
-Can pass `-d` to specify the output language:
+Passe o argumento `-d` para especificar para qual idioma será traduzido:
 
 ```
 > python gtcli.py "Teste" -d en

@@ -3,10 +3,10 @@ from googletrans import Translator
 
 
 def get_terminal_arguments():
-    argument_parser = ArgumentParser(description='Translate texts.')
-    argument_parser.add_argument('text', help='text that will be translated')
+    argument_parser = ArgumentParser(description='Traduz textos')
+    argument_parser.add_argument('texto', help='Texto que será traduzido')
     argument_parser.add_argument(
-        '-d', default='pt', help='to which language will it be translated'
+        '-d', default='pt', help='Para qual idioma que será traduzido'
     )
     return argument_parser.parse_args()
 
